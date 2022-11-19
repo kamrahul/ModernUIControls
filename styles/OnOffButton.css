@@ -1,0 +1,49 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    display:grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: #222;
+}
+
+label{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: large;
+    box-shadow: -5px -5px 10px rgba(255,255,255,.1), 5px 5px 10px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+#check{
+    display: none;
+}
+
+label .fas{
+    font-size: 2em;
+    color:#aaa;
+    cursor: pointer;
+}
+
+#check:checked ~ label .fas{
+    color:greenyellow;
+    filter:drop-shadow(1px 1px 10px green)
+}
+
+#check:checked ~ label{
+    box-shadow:  inset -5px -5px 10px rgba(255,255,255,.1),
+                 inset 5px 5px 10px rgba(0,0,0,.5)
+
+}
