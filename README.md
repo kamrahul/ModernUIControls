@@ -10,5 +10,6 @@
 
 [Menu - Bottom](https://htmlpreview.github.io/?https://github.com/kamrahul/ModernUIControls/blob/main/MenuBar.html)
 
+[Toggle Switch](https://htmlpreview.github.io/?https://github.com/kamrahul/ModernUIControls/blob/main/toggleSwitch.html)
 
-# CSS Shapes
+
